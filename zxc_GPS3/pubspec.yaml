@@ -1,0 +1,24 @@
+name: navigation
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  speech_to_text: 6.1.1
+  http: ^0.13.6
+  permission_handler: ^11.0.0
+  flutter_tts: ^3.8.5
+  geolocator: ^10.0.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+
